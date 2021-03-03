@@ -1,0 +1,34 @@
+.hero {
+  padding-top: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  color: $heroColor;
+  text-align: center;
+
+  &--overlay {
+    max-width: 1600px;
+
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../icons/main-bkg.jpg);
+
+    background-color: #2f303a;
+
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__text {
+    width: 696px;
+    margin-right: auto;
+    margin-left: auto;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+}

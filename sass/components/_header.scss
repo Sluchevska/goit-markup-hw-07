@@ -29,6 +29,7 @@
 .site-nav {
   display: flex;
   margin-left: 93px;
+  padding-inline-start: 0;
 
   &__link {
     display: block;
